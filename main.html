@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__brand">
+                
+                <img src="C:\Users\anule\OneDrive\Desktop\Zomato basic\assets\logo.png" alt="Zomato_logo" class="navbar__logo">
+            
+            </div>
+
+            <div class="navbar__nav__item">
+
+               <ul>
+                <li>SERVICES</li>
+                <li>TRACK ORDER</li>
+                <li>FRANCHISE</li>
+                <li>PARTNERS</li>
+               </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- class="container" is default bootstrap class which gives a padding-->
+        <!-- HERO SECTION -->
+        <section class="hero__container">
+             
+            <div class="hero__image__container">
+                
+                <img src="C:\Users\anule\OneDrive\Desktop\Zomato basic\assets\hero.jpg" alt="Body image" class="hero__image">
+
+            </div>
+            <br>
+            <div class="hero__describe">
+                <p class="hero__text">
+                Order Food from your favourite restaurants near you.
+                </p>
+            <button class="button__primary">
+                ORDER NOW
+            </button>
+            </div>
+
+        </section>
+<!-- EXPLORER MENU -->
+        <section class="explore__menu__container">
+            <h1 class="explore__menu__text">Explore Our Menu</h1>
+            <div class="explore__menu__gradient__bg"></div>
+
+            <div class="explore__menu__lists">
+              
+            <!-- Burger -->
+           <div class="food__card">
+            <div class="food__card__image"> 
+             <img src="C:\Users\anule\OneDrive\Desktop\Zomato basic\assets\burger.jpg" alt="burger" class="food__image">
+            </div>
+
+            <div class="food__card__description">
+             <h3 class="food__title">Burger</h3>
+             <p>Burger King,McDonalds<span style=" color: crimson";>+3</span></p>
+            </div>
+
+           </div>
+<br>
+             <!-- Pizza -->
+             <div class="food__card" id="pizza__card">
+                <div class="food__card__image">
+                    <img src="C:\Users\anule\OneDrive\Desktop\Zomato basic\assets\pizza.jpg" alt="pizza" class="food__image">
+
+                </div>
+                <div class="food__card__description">
+                    <h3 class="food__title">PIZZA</h3>
+                <p>Pizza Hut,Dominos<span style="color:crimson";>+2</span></p>
+                </div>
+            </div>
+<br>
+           <!-- icecream -->
+
+           <div class="food__card">
+            <div class="food__card__image">
+            <img src="C:\Users\anule\OneDrive\Desktop\Zomato basic\assets\iceCream.jpg" alt="icecream" class="food__image">
+
+            </div>
+            <div class="food__card__description">
+                <h3 class="food__title">Ice-Cream</h3>
+                <p>Tinker Bell,Baskin-Robbins<span style="color:crimson";>+3</span></p>
+
+            </div>
+           </div>
+            </div>
+        </section>
+    
+
+        <!-- Order Section -->
+        <section class="order__section">
+            <div class="order__describe">
+               <p class="order__text">Order From 100s of restaurants</p>
+            </div>
+            <div class="order__collage__parent">
+           
+                <div class="order__collage1">
+               
+                <div class="collage__image1">
+                    <!-- <img src="C:\Users\anule\OneDrive\Desktop\Zomato basic\assets\restaurant1.jpg" alt="restaurant1" style="width:100% ;margin-top:30px" class="row"> -->
+                    <div class="restaurant__detail"><p>RAYMOND HOUSE CAFE<br>
+                                                 Shree street , lane 5 , near ABC,PUNE
+                    </p> </div>
+                  
+                </div>
+                
+                <div class="collage__image2">
+                    <div class="restaurant__detail"><p>ITALIANA PIZZA HOUSE<br>
+                        Near D-MART, DY Patil Akurdi 
+</p> </div>
+                  
+                    <!-- <img src="C:\Users\anule\OneDrive\Desktop\Zomato basic\assets\restaurant2.jpg" alt="restaurant2" style="width:100%" class="row" >                -->
+                 </div>
+
+
+                 </div>
+
+
+                 <div class="order__collage1">
+               
+
+                <div class="collage__image3">
+                    <div class="restaurant__detail"><p>AERODOME RESTAURANT<br>
+                        Dharmaraj Chowk, Akurdi
+</p> </div>
+                   
+                    <!-- <img src="C:\Users\anule\OneDrive\Desktop\Zomato basic\assets\restaurant4.jpg" alt="restaurant4" style="width:100%;margin-top:-10px" class="row" > -->
+                </div>
+                
+                <div class="collage__image4">
+                    <div class="restaurant__detail"><p>TATA STARBUCKS<br>
+                        Akurdi 
+</p> </div>
+                   
+                    <!-- <img src="C:\Users\anule\OneDrive\Desktop\Zomato basic\assets\restaurant3.jpg" alt="restaurant3" style="width:100% ;margin-top:10px" class="row" > -->
+                    </div>
+            </div>
+            </div>
+
+        </section>
+
+        
+      <section class="partners">
+        <p class="order__text">OUR PREMIUM PARTNERS</p>
+        <div class="partner__logo">
+            <img src="dominos.png" alt="domino's" class="partner__images">
+            <img src="burger-king-logo-3274.png" alt="burger king" class="partner__images">
+            <img src="subway-photo-logo-4300.png" alt="Shawarma King" id="subway__logo">
+            <img src="pngimg.com - kfc_PNG48.png" alt="kfc" class="type2logo">
+            <img src="coffee-logo-png-7528.png" alt="STARBUCKS" class="type2logo">
+
+
+        </div>
+    
+    
+          </section>
+
+
+
+       
+    </main>
+    <section class="contact__bar">
+        <div class="contact__container">
+          <input type="text" placeholder="Enter your Email" class="email__box">
+          <button class="button__primary">
+            Contact Us
+        </button>
+        </div>
+     
+
+
+
+      </section>
+
+
+
+    <footer class="foot">
+        <div class="foot__brand">
+        
+            <img src="assets/logo.png" alt="logo" id="zomato__logo" >
+    
+        </div>
+
+    </footer>
+
+
+
+</body>
+</html>
